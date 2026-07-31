@@ -1474,3 +1474,36 @@ a {
 }
 
 .text-center { text-align: center; }
+
+/* Mobile Responsive Fix for Services Section */
+@media screen and (max-width: 768px) {
+  .services-section {
+    display: block !important;
+    height: auto !important;
+    min-height: fit-content;
+    padding: 40px 20px;
+    overflow: visible !important;
+  }
+
+  .services-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .service-card {
+    display: flex !important;
+    flex-direction: column;
+    width: 100% !important;
+    height: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    padding: 20px;
+  }
+
+  .service-desc {
+    display: block !important;
+    color: #e0e0e0;
+  }
+}
