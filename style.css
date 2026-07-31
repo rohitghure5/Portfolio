@@ -1475,35 +1475,72 @@ a {
 
 .text-center { text-align: center; }
 
-/* Mobile Responsive Fix for Services Section */
+/* Modern Mobile Layout for Services Section */
 @media screen and (max-width: 768px) {
+  /* Container Setup */
   .services-section {
     display: block !important;
+    width: 100% !important;
     height: auto !important;
-    min-height: fit-content;
-    padding: 40px 20px;
-    overflow: visible !important;
+    min-height: auto !important;
+    padding: 30px 16px !important;
+    box-sizing: border-box;
   }
 
+  /* Vertical Card Stack */
   .services-list {
     display: flex !important;
     flex-direction: column !important;
-    gap: 20px;
-    width: 100%;
+    gap: 16px !important;
+    width: 100% !important;
+    margin-top: 20px;
   }
 
+  /* Glowing Accent Card Styling */
   .service-card {
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column !important;
     width: 100% !important;
     height: auto !important;
+    padding: 18px 20px !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-left: 4px solid #8a2be2 !important; /* Violet Accent Line */
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     opacity: 1 !important;
     visibility: visible !important;
-    padding: 20px;
+    box-sizing: border-box;
   }
 
+  /* Left Header Group (Number + Title) */
+  .service-left {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Number Badge */
+  .service-num {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #a855f7 !important; /* Glowing Purple Accent */
+  }
+
+  /* Service Title */
+  .service-name {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+  }
+
+  /* Service Description */
   .service-desc {
     display: block !important;
-    color: #e0e0e0;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+    color: #cccccc !important;
+    margin: 0 !important;
   }
 }
