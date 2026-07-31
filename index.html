@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohit Ghure - Front-End Developer, Research Specialist & Content Manager based in Goa, India">
+    <meta name="keywords" content="web developer, frontend, portfolio, Goa, India, HTML, CSS, JavaScript">
+    <meta name="author" content="Rohit Ghure">
+    <title>Rohit Ghure | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="logo-text">Rohit Ghure</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Hire Me!</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+ <!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="hero-bg-gradient"></div>
+    <div class="container hero-container">
+        <!-- Left Info -->
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for Opportunities
+            </div>
+            <span class="sub-greeting">Hello, I'm</span>
+            <h1 class="hero-title">
+                <span class="name-highlight glow-text">Rohit Ghure</span>
+            </h1>
+            <div class="title-wrapper">
+                <span id="dynamic-title" class="gradient-text glow-text">Front-End Developer</span>
+            </div>
+            <p class="hero-desc">
+                Computer Engineering graduate passionate about creating responsive web applications, 
+                conducting technical research, and organizing digital content.
+            </p>
+            <div class="hero-actions">
+                <a href="https://drive.google.com/drive/folders/1Q5DJPyLmNOoC-W0qEA1h1XMHj_Kl9v99?usp=drive_link" 
+                   target="_blank" 
+                   class="btn btn-primary btn-large glow-button">
+                    Download CV <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="#projects" class="btn btn-outline btn-large">
+                    View Work <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="mailto:rohitghure5@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+919579838017" class="social-link" aria-label="Phone">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="https://github.com/rohitghure5" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rohitghure" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Profile Image Card -->
+        <div class="hero-image-wrapper">
+            <div class="image-card compact-image">
+                <div class="image-glow"></div>
+                <img src="C:\Users\Rohit Ghure\Desktop\portfolio\693235b9-f163-4a6d-8bc8-789a6958e8eb.jpeg" alt="Rohit Ghure">
+                <div class="image-overlay"></div>
+            </div>
+            <div class="floating-card card-1">
+                <i class="fa-solid fa-microchip"></i>
+                <span>IoT & Web Dev</span>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Goa, India</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Stats Banner (Honest & High-Impact) -->
+    <div class="container stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h2 class="stat-number">Goa</h2>
+            <p class="stat-label">Based in India</p>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h2 class="stat-number">Diploma</h2>
+            <p class="stat-label">Computer Engg.</p>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+            <h2 class="stat-number">3+</h2>
+            <p class="stat-label">Featured Projects</p>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h2 class="stat-number">Modern</h2>
+            <p class="stat-label">Tech Stack</p>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">Get to Know Me</h2>
+                <p class="section-subtitle">My background, education, and technical skill set</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>Who am I?</h3>
+                    </div>
+                    <p>
+                        I am a Computer Engineering graduate from Government Polytechnic, Panjim. 
+                        My core expertise spans across front-end web development, technical data research, 
+                        and reliable content administration. I thrive on problem-solving and crafting 
+                        neat, user-oriented web solutions.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <div>
+                                <strong>From:</strong>
+                                <span>Mopa, Goa, India</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                            <div>
+                                <strong>Degree:</strong>
+                                <span>Computer Engineering</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fa-solid fa-envelope"></i></span>
+                            <div>
+                                <strong>Email:</strong>
+                                <span>rohitghure5@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-skills-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3>My Skills</h3>
+                    </div>
+                    <div class="skills-chips">
+                        <span class="skill-chip">HTML5 / CSS3</span>
+                        <span class="skill-chip">JavaScript</span>
+                        <span class="skill-chip">PHP & MySQL</span>
+                        <span class="skill-chip">WordPress CMS</span>
+                        <span class="skill-chip">Tailwind CSS</span>
+                        <span class="skill-chip">Technical Research</span>
+                        <span class="skill-chip">Data Management</span>
+                        <span class="skill-chip">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Services</span>
+                <h2 class="section-title">My Quality Services</h2>
+                <p class="section-subtitle">Delivering high-value solutions tailored to your needs</p>
+            </div>
+
+            <div class="services-list">
+                <div class="service-card active">
+                    <div class="service-number">01</div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-name">Front-End Development</h3>
+                        <p class="service-desc">
+                            Building responsive, pixel-perfect, and modern web applications using 
+                            modern HTML, CSS, JavaScript, and Tailwind.
+                        </p>
+                    </div>
+                    <a href="#contact" class="service-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        </div>
+                        <h3 class="service-name">Technical Research</h3>
+                        <p class="service-desc">
+                            Conducting web research, organizing technical data, collecting insights, 
+                            and documenting reports clearly.
+                        </p>
+                    </div>
+                    <a href="#contact" class="service-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3 class="service-name">Content Management</h3>
+                        <p class="service-desc">
+                            Managing CMS platforms like WordPress, organizing catalog databases, 
+                            and maintaining accurate digital assets.
+                        </p>
+                    </div>
+                    <a href="#contact" class="service-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Featured Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-badge">Portfolio</span>
+            <h2 class="section-title gradient-text glow-text">My Recent Works</h2>
+            <p class="section-subtitle">A collection of full-stack platforms, hardware designs, and business web systems.</p>
+        </div>
+
+        <div class="projects-grid">
+            
+            <!-- Project 1: Fitzone -->
+            <div class="project-card glow-card">
+                <div class="project-img">
+                    <img src="fitzoneimg.png" alt="Fitzone Elite Fitness Website">
+                </div>
+                <div class="project-info">
+                    <span class="tag">PHP Full-Stack</span>
+                    <h3>Fitzone - Fitness Portal</h3>
+                    <p>A full-stack gym platform featuring trainer selection, gallery showcases, subscription plans, and live checkout features.</p>
+                    <div class="project-tech-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JS</span>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://fitzone.iceiy.com/" target="_blank" class="project-link" rel="noopener noreferrer">
+                            Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Fire Fighting Robot -->
+            <div class="project-card glow-card">
+                <div class="project-img">
+                    <img src="C:\Users\Rohit Ghure\Desktop\portfolio\fire fighting robot.png" alt="Autonomous Fire Fighting Robot Prototype" onclick="openModal(this)">
+                </div>
+                <div class="project-info">
+                    <span class="tag">Robotics & IoT</span>
+                    <h3>Autonomous Fire-Fighting Robot</h3>
+                    <p>An autonomous system engineered with Arduino to detect flames, navigate around obstacles, align a nozzle, and extinguish fires.</p>
+                    <div class="project-tech-tags">
+                        <span>Arduino</span>
+                        <span>Embedded C</span>
+                        <span>Sensors</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="javascript:void(0)" onclick="openModal(this.closest('.project-card').querySelector('img'))" class="project-link">
+                            Inspect Prototype <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: SSG Logistics -->
+            <div class="project-card glow-card">
+                <div class="project-img">
+                    <img src="ssgimg.png" alt="SSG Logistics Website Preview">
+                </div>
+                <div class="project-info">
+                    <span class="tag">Front-End Development</span>
+                    <h3>SSG Logistics Web Portal</h3>
+                    <p>A functional business website designed for a family enterprise—built to showcase services, operational details, and contact info.</p>
+                    <div class="project-tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>GitHub Pages</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ssglogistics.github.io/SSG-Logistics/" target="_blank" class="project-link" rel="noopener noreferrer">
+                            Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Footer Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-bg-gradient"></div>
+    <div class="container text-center">
+        <div class="section-header">
+            <span class="section-badge">Get In Touch</span>
+            <h2 class="section-title glow-text">Let's Connect & Build</h2>
+            <p class="contact-sub">
+                Open for Front-End Development, Technical Research, and Digital Content roles!
+            </p>
+        </div>
+        
+        <!-- Modern Contact Strips -->
+<div class="contact-strips-wrapper">
+    <a href="mailto:rohitghure5@gmail.com" class="contact-strip">
+        <div class="strip-left">
+            <div class="strip-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="strip-details">
+                <span class="strip-label">Send an Email</span>
+                <span class="strip-value">rohitghure5@gmail.com</span>
+            </div>
+        </div>
+        <div class="strip-action">
+            <span>Reach Out</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </a>
+
+    <a href="tel:+919579838017" class="contact-strip">
+        <div class="strip-left">
+            <div class="strip-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="strip-details">
+                <span class="strip-label">Direct Phone / WhatsApp</span>
+                <span class="strip-value">+91 9579838017</span>
+            </div>
+        </div>
+        <div class="strip-action">
+            <span>Call Now</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </a>
+</div>
+
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://github.com/rohitghure5" class="social-link-footer" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rohitghure" class="social-link-footer" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:rohitghure5@gmail.com" class="social-link-footer" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <p>© 2026 Rohit Ghure in Goa, India.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Image Modal Popup -->
+    <div id="imageModal" class="image-modal" onclick="closeModal()">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="fullImage" alt="Prototype Preview">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Custom JavaScript File Link -->
+    <script src="script.js"></script>
+</body>
+</html>
