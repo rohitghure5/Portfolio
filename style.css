@@ -1544,3 +1544,98 @@ a {
     margin: 0 !important;
   }
 }
+
+/* Portfolio Project 4 Card Styling */
+.project-card {
+  background: #161a22;
+  border: 1px solid #222d3d;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 450px;
+  margin: 20px auto;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f9fa;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #e63946;
+}
+
+.project-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-content {
+  padding: 24px;
+}
+
+.tech-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.tag {
+  background: rgba(230, 57, 70, 0.15);
+  color: #e63946;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(230, 57, 70, 0.3);
+}
+
+.project-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.project-content p {
+  color: #a0aab8;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-link {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn-link.primary {
+  background: #e63946;
+  color: #ffffff;
+}
+
+.btn-link.primary:hover {
+  background: #c92a37;
+}
+
+.btn-link.secondary {
+  background: #222d3d;
+  color: #f8f9fa;
+  border: 1px solid #334155;
+}
+
+.btn-link.secondary:hover {
+  background: #334155;
+}
